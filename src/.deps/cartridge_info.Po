@@ -1,0 +1,38 @@
+../src/cartridge_info.o: ../src/cartridge_info.c ../src/memory.h \
+ ../src/config.h D:/usr/include/string.h D:/usr/include/sys/cdefs.h \
+ D:/usr/include/sys/gnu/cdefs.h D:/usr/include/features.h \
+ D:/usr/include/sys/_types.h D:/usr/include/machine/_types.h \
+ D:/usr/include/386/_types.h D:/usr/include/strings.h ../src/atari.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h ../src/cartridge.h \
+ ../src/cartridge_info.h
+
+../src/memory.h:
+
+../src/config.h:
+
+D:/usr/include/string.h:
+
+D:/usr/include/sys/cdefs.h:
+
+D:/usr/include/sys/gnu/cdefs.h:
+
+D:/usr/include/features.h:
+
+D:/usr/include/sys/_types.h:
+
+D:/usr/include/machine/_types.h:
+
+D:/usr/include/386/_types.h:
+
+D:/usr/include/strings.h:
+
+../src/atari.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h:
+
+../src/cartridge.h:
+
+../src/cartridge_info.h:

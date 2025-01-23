@@ -1,0 +1,181 @@
+** EXPERIMENTAL (HLL) ** Open Watcom Linker Version 2.0beta1 Limited Availability
+Portions Copyright (c) 1985-2002 Sybase, Inc. All Rights Reserved.
+Created on:       25/01/14 15:15:26
+Executable Image: cart.exe
+creating an OS/2 EMX executable
+
+
+                        +------------+
+                        |   Groups   |
+                        +------------+
+
+Group                           Address              Size
+=====                           =======              ====
+
+CGROUP                          0001:00000000        00001d10
+DGROUP                          0002:00000000        000001d0
+
+
+
+                        +--------------+
+                        |   Segments   |
+                        +--------------+
+
+Segment                Class          Group          Address         Size
+=======                =====          =====          =======         ====
+
+TEXT32                 CODE           CGROUP         0001:00000000   00001d08
+________TEXT           CODE           CGROUP         0001:00001d10   00000000
+DATA32                 DATA           DGROUP         0002:00000000   00000130
+SET1__os2dll           DATA           DGROUP         0002:00000130   00000004
+SET2__os2dll           DATA           DGROUP         0002:00000134   00000000
+SET3__os2dll           DATA           DGROUP         0002:00000134   00000004
+SET1___CTOR_LIST__     DATA           DGROUP         0002:00000138   00000004
+SET2___CTOR_LIST__     DATA           DGROUP         0002:0000013c   00000004
+SET3___CTOR_LIST__     DATA           DGROUP         0002:00000140   00000004
+SET1___DTOR_LIST__     DATA           DGROUP         0002:00000144   00000004
+SET2___DTOR_LIST__     DATA           DGROUP         0002:00000148   00000000
+SET3___DTOR_LIST__     DATA           DGROUP         0002:00000148   00000004
+SET1___crtinit1__      DATA           DGROUP         0002:0000014c   00000004
+SET2___crtinit1__      DATA           DGROUP         0002:00000150   00000000
+SET3___crtinit1__      DATA           DGROUP         0002:00000150   00000004
+SET1___crtexit1__      DATA           DGROUP         0002:00000154   00000004
+SET2___crtexit1__      DATA           DGROUP         0002:00000158   00000000
+SET3___crtexit1__      DATA           DGROUP         0002:00000158   00000004
+SET1___eh_frame__      DATA           DGROUP         0002:0000015c   00000004
+SET2___eh_frame__      DATA           DGROUP         0002:00000160   00000008
+SET3___eh_frame__      DATA           DGROUP         0002:00000168   00000004
+SET1___eh_init__       DATA           DGROUP         0002:0000016c   00000004
+SET2___eh_init__       DATA           DGROUP         0002:00000170   00000004
+SET3___eh_init__       DATA           DGROUP         0002:00000174   00000004
+SET1___eh_term__       DATA           DGROUP         0002:00000178   00000004
+SET2___eh_term__       DATA           DGROUP         0002:0000017c   00000004
+SET3___eh_term__       DATA           DGROUP         0002:00000180   00000004
+SET1___fork_parent1__  DATA           DGROUP         0002:00000184   00000004
+SET2___fork_parent1__  DATA           DGROUP         0002:00000188   00000000
+SET3___fork_parent1__  DATA           DGROUP         0002:00000188   00000004
+SET1___fork_child1__   DATA           DGROUP         0002:0000018c   00000004
+SET2___fork_child1__   DATA           DGROUP         0002:00000190   00000000
+SET3___fork_child1__   DATA           DGROUP         0002:00000190   00000004
+________DATA           DATA           DGROUP         0002:000001a0   00000000
+BSS32                  BSS            DGROUP         0002:000001a0   00000030
+c_common               BSS            DGROUP         0002:000001d0   00000000
+________BSS            BSS            DGROUP         0002:000001d0   00000000
+STACK                  STACK          AUTO           0003:00000000   00100000
+
+
+                        +----------------+
+                        |   Memory Map   |
+                        +----------------+
+
+* = unreferenced symbol
++ = symbol only referenced locally
+
+Address        Symbol
+=======        ======
+
+Module: D:\usr\lib\crt0hiwildresp.obj(D:\Temp\ccPGoCp4.s)
+0001:00000000* __text
+0002:00000000* __data
+0002:00000000* ___data_start
+0002:000001a0* ___bss_start
+0002:00000130+ __os2dll
+0002:00000138  ___CTOR_LIST__
+0002:00000144  ___DTOR_LIST__
+0002:0000014c* ___crtinit1__
+0002:00000154* ___crtexit1__
+0002:0000015c  ___eh_frame__
+0002:0000016c  ___eh_init__
+0002:00000178  ___eh_term__
+0002:00000184+ ___fork_parent1__
+0002:0000018c+ ___fork_child1__
+Module: D:/var/temp\ldconv_cart_o_dc076786717d15e7b8.obj(cart.c)
+0001:000000e0* _minmaxcheck
+0001:00000140* _flen
+0001:000001b0* _list_cartridges
+0001:00000240* _list_cartridges_size
+0001:00000430* _convert
+0001:000006e0* _predict
+0001:000008c0  _main
+0001:000008c0* main
+Module: D:/var/temp\ldconv_cartridge_info_o_dc076786717d164d48.obj(..\src\cartridge_info.c)
+0001:00000a30  _CARTRIDGE_Checksum
+0001:000016b0  _CARTRIDGES
+Module: D:\usr\lib\libend.lib(src/libend/386/endlink386.asm)
+0002:000001d0  _end
+0002:000001a0  _edata
+Module: D:\usr\lib\libend.lib(src/libend/386/end.asm)
+0001:00001d10* _etext
+0001:00001d10* __etext
+0000:00000000  WEAK$ZERO
+0002:000001d0  __end
+0002:000001a0  __edata
+Module: D:\usr\lib\gcc\i686-pc-os2-emx\9\libgcc_so_d.lib(__main.obj)
+0001:00001bd0* ___do_global_dtors
+0001:00001bd5* ___do_global_ctors
+0001:00001bee  ___main
+Module: D:\usr\lib\gcc\i686-pc-os2-emx\9\libgcc_so_d.lib(emx-ctordtor.obj)
+0001:00001c20  ___ctordtorInit
+0001:00001c54  ___ctordtorTerm
+Module: D:\usr\lib\gcc\i686-pc-os2-emx\9\libgcc_so_d.lib(emx-eh.obj)
+0001:00001c90  ___ehInit
+0001:00001ccc* ___ehTerm
+
+
+                        +----------------------+
+                        |   Imported Symbols   |
+                        +----------------------+
+
+Symbol                              Module
+======                              ======
+
+___libc_ForkRegisterModule          libcn0
+___init_app                         libcx0
+__response                          libcn0
+__wildcard                          libcn0
+__CRT_init                          libcn0
+__atfork_callback                   libcn0
+__fmode_bin                         libcn0
+___stderrp                          libcn0
+_fread                              libcx0
+__errno                             libcn0
+__std_exit                          libcn0
+__std_fprintf                       libcn0
+__std_fseek                         libcn0
+__std_ftell                         libcn0
+__std_rewind                        libcn0
+__std_puts                          libcn0
+__std_printf                        libcn0
+__std_strcmp                        libcn0
+__std_fopen                         libcn0
+__std_malloc                        libcn0
+__std_fclose                        libcn0
+__std_fwrite                        libcn0
+__std_strerror                      libcn0
+__std_atol                          libcn0
+___ctordtorInit1                    libcn0
+___ctordtorTerm1                    libcn0
+__std_atexit                        libcn0
+___register_frame_table             gcc1
+___deregister_frame                 gcc1
+
+
+                        +--------------------+
+                        |   Libraries Used   |
+                        +--------------------+
+
+D:\var\temp\ldconv_libcx_a_dc076786717d171480.lib
+D:\usr\lib\gcc\i686-pc-os2-emx\9\libgcc_so_d.lib
+D:\usr\lib\libc_alias.lib
+D:\usr\lib\libc_dll.lib
+D:\usr\lib\libend.lib
+
+
+                        +-----------------------+
+                        |   Linker Statistics   |
+                        +-----------------------+
+
+Stack size:  00100000 (1048576.)
+Memory size:  00101ee0 (1056480.)
+Entry point address: 0001:00000000
+Link time: 00:00.10

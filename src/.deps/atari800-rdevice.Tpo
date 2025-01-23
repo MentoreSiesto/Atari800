@@ -1,0 +1,177 @@
+atari800-rdevice.o: rdevice.c config.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h \
+ D:/usr/include/sys/cdefs.h D:/usr/include/sys/gnu/cdefs.h \
+ D:/usr/include/features.h D:/usr/include/sys/_types.h \
+ D:/usr/include/machine/_types.h D:/usr/include/386/_types.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdlib.h \
+ D:/usr/include/sys/_null.h D:/usr/include/malloc.h \
+ D:/usr/include/string.h D:/usr/include/strings.h D:/usr/include/signal.h \
+ D:/usr/include/sys/signal.h D:/usr/include/machine/signal.h \
+ D:/usr/include/386/signal.h D:/usr/include/sys/_sigset.h \
+ D:/usr/include/machine/trap.h D:/usr/include/386/trap.h \
+ D:/usr/include/sys/timespec.h D:/usr/include/time.h \
+ D:/usr/include/errno.h D:/usr/include/sys/errno.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/unistd.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/sys/types.h \
+ D:/usr/include/machine/endian.h D:/usr/include/386/endian.h \
+ D:/usr/include/sys/select.h D:/usr/include/sys/unistd.h \
+ D:/usr/include/sys/stat.h D:/usr/include/sys/time.h \
+ D:/usr/include/sys/_timeval.h D:/usr/include/sys/socket.h \
+ D:/usr/include/machine/ansi.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/386/ansi.h \
+ D:/usr/include/machine/param.h D:/usr/include/386/param.h \
+ D:/usr/include/sys/uio.h D:/usr/include/sys/_sockaddr_storage.h \
+ D:/usr/include/sys/ioccom.h D:/usr/include/netinet/in.h \
+ D:/usr/include/sys/param.h D:/usr/include/types.h \
+ D:/usr/include/sys/syslimits.h D:/usr/include/machine/limits.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/limits.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/syslimits.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/limits.h \
+ D:/usr/include/limits.h D:/usr/include/sys/limits.h \
+ D:/usr/include/machine/_limits.h D:/usr/include/386/_limits.h \
+ D:/usr/include/netdb.h D:/usr/include/arpa/inet.h D:/usr/include/fcntl.h \
+ D:/usr/include/sys/fcntl.h D:/usr/include/termios.h \
+ D:/usr/include/sys/termios.h atari.h rdevice.h cpu.h devices.h log.h \
+ memory.h util.h D:/usr/include/math.h D:/usr/include/ctype.h \
+ D:/usr/include/_ctype.h
+
+config.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h:
+
+D:/usr/include/sys/cdefs.h:
+
+D:/usr/include/sys/gnu/cdefs.h:
+
+D:/usr/include/features.h:
+
+D:/usr/include/sys/_types.h:
+
+D:/usr/include/machine/_types.h:
+
+D:/usr/include/386/_types.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdlib.h:
+
+D:/usr/include/sys/_null.h:
+
+D:/usr/include/malloc.h:
+
+D:/usr/include/string.h:
+
+D:/usr/include/strings.h:
+
+D:/usr/include/signal.h:
+
+D:/usr/include/sys/signal.h:
+
+D:/usr/include/machine/signal.h:
+
+D:/usr/include/386/signal.h:
+
+D:/usr/include/sys/_sigset.h:
+
+D:/usr/include/machine/trap.h:
+
+D:/usr/include/386/trap.h:
+
+D:/usr/include/sys/timespec.h:
+
+D:/usr/include/time.h:
+
+D:/usr/include/errno.h:
+
+D:/usr/include/sys/errno.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/unistd.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/sys/types.h:
+
+D:/usr/include/machine/endian.h:
+
+D:/usr/include/386/endian.h:
+
+D:/usr/include/sys/select.h:
+
+D:/usr/include/sys/unistd.h:
+
+D:/usr/include/sys/stat.h:
+
+D:/usr/include/sys/time.h:
+
+D:/usr/include/sys/_timeval.h:
+
+D:/usr/include/sys/socket.h:
+
+D:/usr/include/machine/ansi.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/386/ansi.h:
+
+D:/usr/include/machine/param.h:
+
+D:/usr/include/386/param.h:
+
+D:/usr/include/sys/uio.h:
+
+D:/usr/include/sys/_sockaddr_storage.h:
+
+D:/usr/include/sys/ioccom.h:
+
+D:/usr/include/netinet/in.h:
+
+D:/usr/include/sys/param.h:
+
+D:/usr/include/types.h:
+
+D:/usr/include/sys/syslimits.h:
+
+D:/usr/include/machine/limits.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/limits.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/syslimits.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/limits.h:
+
+D:/usr/include/limits.h:
+
+D:/usr/include/sys/limits.h:
+
+D:/usr/include/machine/_limits.h:
+
+D:/usr/include/386/_limits.h:
+
+D:/usr/include/netdb.h:
+
+D:/usr/include/arpa/inet.h:
+
+D:/usr/include/fcntl.h:
+
+D:/usr/include/sys/fcntl.h:
+
+D:/usr/include/termios.h:
+
+D:/usr/include/sys/termios.h:
+
+atari.h:
+
+rdevice.h:
+
+cpu.h:
+
+devices.h:
+
+log.h:
+
+memory.h:
+
+util.h:
+
+D:/usr/include/math.h:
+
+D:/usr/include/ctype.h:
+
+D:/usr/include/_ctype.h:

@@ -1,0 +1,52 @@
+atari800-gtia.o: gtia.c config.h D:/usr/include/string.h \
+ D:/usr/include/sys/cdefs.h D:/usr/include/sys/gnu/cdefs.h \
+ D:/usr/include/features.h D:/usr/include/sys/_types.h \
+ D:/usr/include/machine/_types.h D:/usr/include/386/_types.h \
+ D:/usr/include/strings.h antic.h atari.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h binload.h cassette.h \
+ cpu.h gtia.h screen.h input.h statesav.h pokeysnd.h pokey.h
+
+config.h:
+
+D:/usr/include/string.h:
+
+D:/usr/include/sys/cdefs.h:
+
+D:/usr/include/sys/gnu/cdefs.h:
+
+D:/usr/include/features.h:
+
+D:/usr/include/sys/_types.h:
+
+D:/usr/include/machine/_types.h:
+
+D:/usr/include/386/_types.h:
+
+D:/usr/include/strings.h:
+
+antic.h:
+
+atari.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h:
+
+binload.h:
+
+cassette.h:
+
+cpu.h:
+
+gtia.h:
+
+screen.h:
+
+input.h:
+
+statesav.h:
+
+pokeysnd.h:
+
+pokey.h:

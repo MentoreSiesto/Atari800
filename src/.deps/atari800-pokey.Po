@@ -1,0 +1,69 @@
+atari800-pokey.o: pokey.c config.h D:/usr/include/time.h \
+ D:/usr/include/sys/cdefs.h D:/usr/include/sys/gnu/cdefs.h \
+ D:/usr/include/features.h D:/usr/include/sys/_types.h \
+ D:/usr/include/machine/_types.h D:/usr/include/386/_types.h \
+ D:/usr/include/sys/timespec.h atari.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h cpu.h esc.h pia.h \
+ pokey.h gtia.h screen.h sio.h input.h statesav.h pokeysnd.h antic.h \
+ cassette.h log.h pbi.h pokeyrec.h voicebox.h votraxsnd.h votrax.h
+
+config.h:
+
+D:/usr/include/time.h:
+
+D:/usr/include/sys/cdefs.h:
+
+D:/usr/include/sys/gnu/cdefs.h:
+
+D:/usr/include/features.h:
+
+D:/usr/include/sys/_types.h:
+
+D:/usr/include/machine/_types.h:
+
+D:/usr/include/386/_types.h:
+
+D:/usr/include/sys/timespec.h:
+
+atari.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h:
+
+cpu.h:
+
+esc.h:
+
+pia.h:
+
+pokey.h:
+
+gtia.h:
+
+screen.h:
+
+sio.h:
+
+input.h:
+
+statesav.h:
+
+pokeysnd.h:
+
+antic.h:
+
+cassette.h:
+
+log.h:
+
+pbi.h:
+
+pokeyrec.h:
+
+voicebox.h:
+
+votraxsnd.h:
+
+votrax.h:

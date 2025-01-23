@@ -1,0 +1,215 @@
+sdl/atari800-video_sw.o: sdl/video_sw.c \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h \
+ D:/usr/include/sys/cdefs.h D:/usr/include/sys/gnu/cdefs.h \
+ D:/usr/include/features.h D:/usr/include/sys/_types.h \
+ D:/usr/include/machine/_types.h D:/usr/include/386/_types.h \
+ D:/usr/include/string.h D:/usr/include/strings.h \
+ D:/usr/include/SDL/SDL.h D:/usr/include/SDL/SDL_main.h \
+ D:/usr/include/SDL/SDL_stdinc.h D:/usr/include/SDL/SDL_config.h \
+ D:/usr/include/SDL/SDL_platform.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/sys/types.h \
+ D:/usr/include/machine/endian.h D:/usr/include/386/endian.h \
+ D:/usr/include/sys/select.h D:/usr/include/sys/_sigset.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdlib.h \
+ D:/usr/include/sys/_null.h D:/usr/include/malloc.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stddef.h \
+ D:/usr/include/inttypes.h D:/usr/include/machine/_inttypes.h \
+ D:/usr/include/386/_inttypes.h D:/usr/include/sys/stdint.h \
+ D:/usr/include/machine/_stdint.h D:/usr/include/386/_stdint.h \
+ D:/usr/include/machine/_limits.h D:/usr/include/386/_limits.h \
+ D:/usr/include/ctype.h D:/usr/include/_ctype.h D:/usr/include/iconv.h \
+ D:/usr/include/SDL/begin_code.h D:/usr/include/SDL/close_code.h \
+ D:/usr/include/SDL/SDL_audio.h D:/usr/include/SDL/SDL_error.h \
+ D:/usr/include/SDL/SDL_endian.h D:/usr/include/SDL/SDL_mutex.h \
+ D:/usr/include/SDL/SDL_thread.h D:/usr/include/process.h \
+ D:/usr/include/sys/process.h D:/usr/include/SDL/SDL_rwops.h \
+ D:/usr/include/SDL/SDL_cdrom.h D:/usr/include/SDL/SDL_cpuinfo.h \
+ D:/usr/include/SDL/SDL_events.h D:/usr/include/SDL/SDL_active.h \
+ D:/usr/include/SDL/SDL_keyboard.h D:/usr/include/SDL/SDL_keysym.h \
+ D:/usr/include/SDL/SDL_mouse.h D:/usr/include/SDL/SDL_video.h \
+ D:/usr/include/SDL/SDL_joystick.h D:/usr/include/SDL/SDL_quit.h \
+ D:/usr/include/SDL/SDL_loadso.h D:/usr/include/SDL/SDL_timer.h \
+ D:/usr/include/SDL/SDL_version.h af80.h atari.h config.h bit3.h \
+ artifact.h atari.h colours.h colours_external.h config.h filter_ntsc.h \
+ atari_ntsc/atari_ntsc.h atari_ntsc/atari_ntsc_config.h log.h \
+ pbi_proto80.h pal_blending.h platform.h videomode.h sound.h screen.h \
+ videomode.h xep80.h xep80_fonts.h xep80.h util.h D:/usr/include/math.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/unistd.h \
+ D:/usr/include/sys/unistd.h sdl/palette.h sdl/video.h sdl/video_sw.h
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h:
+
+D:/usr/include/sys/cdefs.h:
+
+D:/usr/include/sys/gnu/cdefs.h:
+
+D:/usr/include/features.h:
+
+D:/usr/include/sys/_types.h:
+
+D:/usr/include/machine/_types.h:
+
+D:/usr/include/386/_types.h:
+
+D:/usr/include/string.h:
+
+D:/usr/include/strings.h:
+
+D:/usr/include/SDL/SDL.h:
+
+D:/usr/include/SDL/SDL_main.h:
+
+D:/usr/include/SDL/SDL_stdinc.h:
+
+D:/usr/include/SDL/SDL_config.h:
+
+D:/usr/include/SDL/SDL_platform.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/sys/types.h:
+
+D:/usr/include/machine/endian.h:
+
+D:/usr/include/386/endian.h:
+
+D:/usr/include/sys/select.h:
+
+D:/usr/include/sys/_sigset.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdlib.h:
+
+D:/usr/include/sys/_null.h:
+
+D:/usr/include/malloc.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stddef.h:
+
+D:/usr/include/inttypes.h:
+
+D:/usr/include/machine/_inttypes.h:
+
+D:/usr/include/386/_inttypes.h:
+
+D:/usr/include/sys/stdint.h:
+
+D:/usr/include/machine/_stdint.h:
+
+D:/usr/include/386/_stdint.h:
+
+D:/usr/include/machine/_limits.h:
+
+D:/usr/include/386/_limits.h:
+
+D:/usr/include/ctype.h:
+
+D:/usr/include/_ctype.h:
+
+D:/usr/include/iconv.h:
+
+D:/usr/include/SDL/begin_code.h:
+
+D:/usr/include/SDL/close_code.h:
+
+D:/usr/include/SDL/SDL_audio.h:
+
+D:/usr/include/SDL/SDL_error.h:
+
+D:/usr/include/SDL/SDL_endian.h:
+
+D:/usr/include/SDL/SDL_mutex.h:
+
+D:/usr/include/SDL/SDL_thread.h:
+
+D:/usr/include/process.h:
+
+D:/usr/include/sys/process.h:
+
+D:/usr/include/SDL/SDL_rwops.h:
+
+D:/usr/include/SDL/SDL_cdrom.h:
+
+D:/usr/include/SDL/SDL_cpuinfo.h:
+
+D:/usr/include/SDL/SDL_events.h:
+
+D:/usr/include/SDL/SDL_active.h:
+
+D:/usr/include/SDL/SDL_keyboard.h:
+
+D:/usr/include/SDL/SDL_keysym.h:
+
+D:/usr/include/SDL/SDL_mouse.h:
+
+D:/usr/include/SDL/SDL_video.h:
+
+D:/usr/include/SDL/SDL_joystick.h:
+
+D:/usr/include/SDL/SDL_quit.h:
+
+D:/usr/include/SDL/SDL_loadso.h:
+
+D:/usr/include/SDL/SDL_timer.h:
+
+D:/usr/include/SDL/SDL_version.h:
+
+af80.h:
+
+atari.h:
+
+config.h:
+
+bit3.h:
+
+artifact.h:
+
+atari.h:
+
+colours.h:
+
+colours_external.h:
+
+config.h:
+
+filter_ntsc.h:
+
+atari_ntsc/atari_ntsc.h:
+
+atari_ntsc/atari_ntsc_config.h:
+
+log.h:
+
+pbi_proto80.h:
+
+pal_blending.h:
+
+platform.h:
+
+videomode.h:
+
+sound.h:
+
+screen.h:
+
+videomode.h:
+
+xep80.h:
+
+xep80_fonts.h:
+
+xep80.h:
+
+util.h:
+
+D:/usr/include/math.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/unistd.h:
+
+D:/usr/include/sys/unistd.h:
+
+sdl/palette.h:
+
+sdl/video.h:
+
+sdl/video_sw.h:

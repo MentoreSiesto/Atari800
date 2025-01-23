@@ -1,0 +1,28 @@
+roms/atari800-altirra_5200_os.o: roms/altirra_5200_os.c config.h atari.h \
+ config.h D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h \
+ D:/usr/include/sys/cdefs.h D:/usr/include/sys/gnu/cdefs.h \
+ D:/usr/include/features.h D:/usr/include/sys/_types.h \
+ D:/usr/include/machine/_types.h D:/usr/include/386/_types.h
+
+config.h:
+
+atari.h:
+
+config.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h:
+
+D:/usr/include/sys/cdefs.h:
+
+D:/usr/include/sys/gnu/cdefs.h:
+
+D:/usr/include/features.h:
+
+D:/usr/include/sys/_types.h:
+
+D:/usr/include/machine/_types.h:
+
+D:/usr/include/386/_types.h:

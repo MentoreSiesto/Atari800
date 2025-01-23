@@ -1,0 +1,62 @@
+atari_ntsc/atari800-atari_ntsc.o: atari_ntsc/atari_ntsc.c colours.h \
+ colours_external.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h \
+ D:/usr/include/sys/cdefs.h D:/usr/include/sys/gnu/cdefs.h \
+ D:/usr/include/features.h D:/usr/include/sys/_types.h \
+ D:/usr/include/machine/_types.h D:/usr/include/386/_types.h \
+ atari_ntsc/atari_ntsc.h atari_ntsc/atari_ntsc_config.h \
+ atari_ntsc/atari_ntsc_impl.h D:/usr/include/assert.h \
+ D:/usr/include/math.h D:/usr/include/machine/_limits.h \
+ D:/usr/include/386/_limits.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/limits.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/syslimits.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/limits.h \
+ D:/usr/include/limits.h D:/usr/include/sys/limits.h \
+ D:/usr/include/sys/syslimits.h
+
+colours.h:
+
+colours_external.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h:
+
+D:/usr/include/sys/cdefs.h:
+
+D:/usr/include/sys/gnu/cdefs.h:
+
+D:/usr/include/features.h:
+
+D:/usr/include/sys/_types.h:
+
+D:/usr/include/machine/_types.h:
+
+D:/usr/include/386/_types.h:
+
+atari_ntsc/atari_ntsc.h:
+
+atari_ntsc/atari_ntsc_config.h:
+
+atari_ntsc/atari_ntsc_impl.h:
+
+D:/usr/include/assert.h:
+
+D:/usr/include/math.h:
+
+D:/usr/include/machine/_limits.h:
+
+D:/usr/include/386/_limits.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/limits.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/syslimits.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/limits.h:
+
+D:/usr/include/limits.h:
+
+D:/usr/include/sys/limits.h:
+
+D:/usr/include/sys/syslimits.h:

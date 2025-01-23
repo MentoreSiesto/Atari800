@@ -1,0 +1,48 @@
+codecs/atari800-container_wav.o: codecs/container_wav.c \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h \
+ D:/usr/include/sys/cdefs.h D:/usr/include/sys/gnu/cdefs.h \
+ D:/usr/include/features.h D:/usr/include/sys/_types.h \
+ D:/usr/include/machine/_types.h D:/usr/include/386/_types.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdlib.h \
+ D:/usr/include/sys/_null.h D:/usr/include/malloc.h file_export.h atari.h \
+ config.h log.h codecs/container.h atari.h codecs/container_wav.h \
+ codecs/audio.h
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h:
+
+D:/usr/include/sys/cdefs.h:
+
+D:/usr/include/sys/gnu/cdefs.h:
+
+D:/usr/include/features.h:
+
+D:/usr/include/sys/_types.h:
+
+D:/usr/include/machine/_types.h:
+
+D:/usr/include/386/_types.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdlib.h:
+
+D:/usr/include/sys/_null.h:
+
+D:/usr/include/malloc.h:
+
+file_export.h:
+
+atari.h:
+
+config.h:
+
+log.h:
+
+codecs/container.h:
+
+atari.h:
+
+codecs/container_wav.h:
+
+codecs/audio.h:

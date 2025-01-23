@@ -1,0 +1,81 @@
+atari800-colours_pal.o: colours_pal.c D:/usr/include/math.h \
+ D:/usr/include/sys/cdefs.h D:/usr/include/sys/gnu/cdefs.h \
+ D:/usr/include/features.h D:/usr/include/sys/_types.h \
+ D:/usr/include/machine/_types.h D:/usr/include/386/_types.h \
+ D:/usr/include/machine/_limits.h D:/usr/include/386/_limits.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdlib.h \
+ D:/usr/include/sys/_null.h D:/usr/include/malloc.h \
+ D:/usr/include/string.h D:/usr/include/strings.h colours_pal.h colours.h \
+ colours_external.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h atari.h config.h log.h \
+ util.h D:/usr/include/ctype.h D:/usr/include/_ctype.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/unistd.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/sys/types.h \
+ D:/usr/include/machine/endian.h D:/usr/include/386/endian.h \
+ D:/usr/include/sys/select.h D:/usr/include/sys/_sigset.h \
+ D:/usr/include/sys/unistd.h
+
+D:/usr/include/math.h:
+
+D:/usr/include/sys/cdefs.h:
+
+D:/usr/include/sys/gnu/cdefs.h:
+
+D:/usr/include/features.h:
+
+D:/usr/include/sys/_types.h:
+
+D:/usr/include/machine/_types.h:
+
+D:/usr/include/386/_types.h:
+
+D:/usr/include/machine/_limits.h:
+
+D:/usr/include/386/_limits.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdlib.h:
+
+D:/usr/include/sys/_null.h:
+
+D:/usr/include/malloc.h:
+
+D:/usr/include/string.h:
+
+D:/usr/include/strings.h:
+
+colours_pal.h:
+
+colours.h:
+
+colours_external.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h:
+
+atari.h:
+
+config.h:
+
+log.h:
+
+util.h:
+
+D:/usr/include/ctype.h:
+
+D:/usr/include/_ctype.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/unistd.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/sys/types.h:
+
+D:/usr/include/machine/endian.h:
+
+D:/usr/include/386/endian.h:
+
+D:/usr/include/sys/select.h:
+
+D:/usr/include/sys/_sigset.h:
+
+D:/usr/include/sys/unistd.h:

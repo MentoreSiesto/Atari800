@@ -1,0 +1,57 @@
+atari800-mzpokeysnd.o: mzpokeysnd.c config.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdlib.h \
+ D:/usr/include/sys/cdefs.h D:/usr/include/sys/gnu/cdefs.h \
+ D:/usr/include/features.h D:/usr/include/sys/_null.h \
+ D:/usr/include/sys/_types.h D:/usr/include/machine/_types.h \
+ D:/usr/include/386/_types.h D:/usr/include/malloc.h \
+ D:/usr/include/math.h D:/usr/include/machine/_limits.h \
+ D:/usr/include/386/_limits.h atari.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h mzpokeysnd.h \
+ pokeysnd.h pokey.h remez.h antic.h gtia.h screen.h
+
+config.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdlib.h:
+
+D:/usr/include/sys/cdefs.h:
+
+D:/usr/include/sys/gnu/cdefs.h:
+
+D:/usr/include/features.h:
+
+D:/usr/include/sys/_null.h:
+
+D:/usr/include/sys/_types.h:
+
+D:/usr/include/machine/_types.h:
+
+D:/usr/include/386/_types.h:
+
+D:/usr/include/malloc.h:
+
+D:/usr/include/math.h:
+
+D:/usr/include/machine/_limits.h:
+
+D:/usr/include/386/_limits.h:
+
+atari.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h:
+
+mzpokeysnd.h:
+
+pokeysnd.h:
+
+pokey.h:
+
+remez.h:
+
+antic.h:
+
+gtia.h:
+
+screen.h:

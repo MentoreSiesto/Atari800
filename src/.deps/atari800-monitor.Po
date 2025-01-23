@@ -1,0 +1,110 @@
+atari800-monitor.o: monitor.c config.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h \
+ D:/usr/include/sys/cdefs.h D:/usr/include/sys/gnu/cdefs.h \
+ D:/usr/include/features.h D:/usr/include/sys/_types.h \
+ D:/usr/include/machine/_types.h D:/usr/include/386/_types.h \
+ D:/usr/include/string.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdlib.h \
+ D:/usr/include/sys/_null.h D:/usr/include/malloc.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/unistd.h \
+ D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/sys/types.h \
+ D:/usr/include/machine/endian.h D:/usr/include/386/endian.h \
+ D:/usr/include/sys/select.h D:/usr/include/sys/_sigset.h \
+ D:/usr/include/sys/unistd.h D:/usr/include/math.h \
+ D:/usr/include/machine/_limits.h D:/usr/include/386/_limits.h \
+ D:/usr/include/termios.h D:/usr/include/sys/termios.h antic.h atari.h \
+ cpu.h gtia.h screen.h memory.h cartridge.h cartridge_info.h monitor.h \
+ pia.h pokey.h util.h D:/usr/include/strings.h D:/usr/include/ctype.h \
+ D:/usr/include/_ctype.h pokeysnd.h platform.h videomode.h sound.h \
+ statesav.h
+
+config.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdio.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include/stdarg.h:
+
+D:/usr/include/sys/cdefs.h:
+
+D:/usr/include/sys/gnu/cdefs.h:
+
+D:/usr/include/features.h:
+
+D:/usr/include/sys/_types.h:
+
+D:/usr/include/machine/_types.h:
+
+D:/usr/include/386/_types.h:
+
+D:/usr/include/string.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/stdlib.h:
+
+D:/usr/include/sys/_null.h:
+
+D:/usr/include/malloc.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/unistd.h:
+
+D:/usr/lib/gcc/i686-pc-os2-emx/9/include-fixed/sys/types.h:
+
+D:/usr/include/machine/endian.h:
+
+D:/usr/include/386/endian.h:
+
+D:/usr/include/sys/select.h:
+
+D:/usr/include/sys/_sigset.h:
+
+D:/usr/include/sys/unistd.h:
+
+D:/usr/include/math.h:
+
+D:/usr/include/machine/_limits.h:
+
+D:/usr/include/386/_limits.h:
+
+D:/usr/include/termios.h:
+
+D:/usr/include/sys/termios.h:
+
+antic.h:
+
+atari.h:
+
+cpu.h:
+
+gtia.h:
+
+screen.h:
+
+memory.h:
+
+cartridge.h:
+
+cartridge_info.h:
+
+monitor.h:
+
+pia.h:
+
+pokey.h:
+
+util.h:
+
+D:/usr/include/strings.h:
+
+D:/usr/include/ctype.h:
+
+D:/usr/include/_ctype.h:
+
+pokeysnd.h:
+
+platform.h:
+
+videomode.h:
+
+sound.h:
+
+statesav.h:
